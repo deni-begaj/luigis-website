@@ -1,0 +1,218 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* 
+   Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+/* Added Styles Deni */
+
+
+
+.list_of_prices li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#copyright_container {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+
+/* Menu modal css */
+
+#menu_modal .modal-dialog {
+    width: 90%;
+}
+
+#menu_modal .modal-header {
+    border: none;
+}
+
+#menu_modal #menu_modal_close {
+    font-size: 30px;
+}
+
+
+
+/* Moments modal css */
+
+#moments_modal .modal-dialog {
+    width: 90%;
+}
+
+#moments_modal .modal-header {
+    border: none;
+}
+
+#moments_modal #moments_modal_close {
+    font-size: 30px;
+}
+
+
+#go_to_menu_div {
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#go_to_menu_div:hover {
+    color: #e7a331;
+    transition: color 1s;
+}
+
+#go_to_menu_div div a {
+    color: white;
+    text-decoration: none;
+}
+    
+#go_to_menu_div div a:hover {
+    color: #e7a331;
+    transition: color 1s;
+}
+
+
+
+.ourPakegComplete .single_pakeg_text ul li {
+    background: url(media/OldWebsitePhotos/pkli.png) no-repeat left center;
+    padding: 15px 0px 15px 60px;
+    margin-top: 10px;
+}
+
+
+
+
+.single_pakeg_menu_one {
+    background: url(media/drink.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_pakeg_menu_two {
+    background: url(media/appetizers.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_pakeg_menu_three {
+    background: url(media/entrees.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+
+.single_pakeg_menu_four {
+    background: url(media/meat.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_pakeg_menu_five {
+    background: url(media/salad.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+
+.single_pakeg_menu_six {
+    background: url(media/pizza.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+
+
+/* Mobile styles css */
+
+@media only screen and (max-width: 500px) {
+    #slider_main_title {
+        font-size: 32px;
+        line-height: 4rem;
+    }
+
+    #abouts_main_title {
+        font-size: 24px;
+    }
+
+    #features_main_title {
+        font-size: 24px;
+    }
+
+    .main_features_content {
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+
+    .call_us_text {
+        display: flex;
+    }
+
+    #head_top_social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #main_logo_website {
+        display: none;
+    }
+
+    .list_of_prices li {
+        font-size: 12px;
+    }
+
+    .portfolio_images_overlay h6  {
+        font-size: 12px;
+    }
+
+    .portfolio_images_overlay p.product_price {
+        font-size: 12px;
+    }
+
+    .single_portfolio_text img {
+        height: 100%;
+    }
+
+}
